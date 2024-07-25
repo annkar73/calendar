@@ -14,18 +14,33 @@ const dateDigits = ref([date.value[0], date.value[1]]);
 
 <template>
     <div class="flip-calendar">
+        <div class="day">
         <WeekDayCard :weekDay="weekDay" />
+        </div>
+        <div class="date">
         <DateCard :digit="dateDigits[0]" />
         <DateCard :digit="dateDigits[1]" />
+        </div>
+        <div class="month">
         <MonthCard :month="month" />
+        </div>
     </div>
 </template>
 
 <style scoped>
 .flip-calendar {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
+  gap: 1px;
+  padding: 20px;
+  background-color: lightgoldenrodyellow;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.date {
+    display: flex;
+    flex-direction: row;
 }
 </style>
