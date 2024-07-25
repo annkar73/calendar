@@ -62,15 +62,19 @@ onUnmounted(() => {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #fff;
-    border-radius: 8px;
-    border: 1px solid #333;
+    background-color: #111;
+    color: greenyellow;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 10px;
+    border: 1px solid greenyellow;
     margin: 0 2px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(173, 255, 47, 0.8);
 }
 
 span {
     font-size: 2em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: greenyellow;
     margin: 0 5px;
 }
 </style>

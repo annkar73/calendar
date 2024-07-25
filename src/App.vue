@@ -23,7 +23,7 @@ import ClockDisplay from './components/ClockDisplay.vue';
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #f5f5f5;
+  background-color: #111;
   text-align: center;
   margin-top: 60px;
 }
