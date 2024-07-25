@@ -18,12 +18,12 @@ import ClockDisplay from './components/ClockDisplay.vue';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 18px;
-  min-height: 75vh;
+  min-height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #111;
+  background-color: black;
   text-align: center;
   margin-top: 60px;
 }

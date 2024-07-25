@@ -33,15 +33,15 @@ const dateDigits = ref([date.value[0], date.value[1]]);
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 1px;
+  gap: 10px;
   padding: 20px;
-  background-color: lightgoldenrodyellow;
+  background-color: black;
   border-radius: 15px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 0 15px rgba(0, 0, 0, 0.1); /* Glow effekt här */
 }
 
 .date {
     display: flex;
     flex-direction: row;
 }
+
 </style>

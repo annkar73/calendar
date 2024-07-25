@@ -10,7 +10,7 @@ const props = defineProps<{ weekDay: string }>();
 
 <style scoped>
 .card {
-    width: 150px;
+    width: 250px;
     height: 60px;
     margin: 5px;
     display: flex;
@@ -19,10 +19,11 @@ const props = defineProps<{ weekDay: string }>();
     font-size: 1.5em;
     font-style: italic;
     font-weight: bold;
+    border: 1px solid greenyellow;
     border-radius: 10px;
-    background-color: turquoise;
-    color: #333;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #111;
+    color: greenyellow;
+    box-shadow: 0 4px 8px rgba(173, 255, 47, 0.8);
     text-transform: capitalize;
 }
 </style>
