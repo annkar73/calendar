@@ -17,11 +17,12 @@ const props = defineProps<{ weekDay: string }>();
     justify-content: center;
     align-items: center;
     font-size: 1.5em;
+    font-style: italic;
+    font-weight: bold;
     border-radius: 10px;
     background-color: turquoise;
     color: #333;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border: 1px solid #ddd;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 </style>

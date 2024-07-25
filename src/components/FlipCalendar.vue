@@ -37,8 +37,9 @@ const dateDigits = ref([date.value[0], date.value[1]]);
   padding: 20px;
   background-color: lightgoldenrodyellow;
   border-radius: 15px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 0 15px rgba(0, 0, 0, 0.1); /* Glow effekt här */
 }
+
 .date {
     display: flex;
     flex-direction: row;
